@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def uppercase(c):
+def uppercase(str):
 
-    for c in range(65, 91):
-        print(chr(c))
+    for char in str:
+        return str.upper()
