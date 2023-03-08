@@ -3,12 +3,11 @@ import random
 number = random.randint(-10, 10)
 
 if number > 0:
-    return "is positive"
+    print(f"{number} \n is positive")
 
 if number == 0:
-    return "is zero"
+    print(f"{number} \n is zero")
 
 if number < 0:
-    return "is negative"
+    print(f"{number} \n is negative")
 
-print(number\)
