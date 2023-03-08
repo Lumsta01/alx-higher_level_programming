@@ -2,6 +2,6 @@
 
 def pow(a, b):
 
-    power = int(a ^ b)
+    power = pow(int(a, b))
 
     return power
