@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def fizzbuzz():
-    if i % 3 and i % 5:
+    if i % 3 ==0 and i % 5 == 0:
         print("FizzBuzz", end=" ")
 
     elif i % 3 == 0:
