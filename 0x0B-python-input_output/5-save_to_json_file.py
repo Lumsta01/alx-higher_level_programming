@@ -3,7 +3,7 @@
 import json
 
 
-def save_to_file(my_obj, filename):
+def save_to_json_file(my_obj, filename):
     '''Write object to text file using json representation.'''
     with open(filename, 'w') as f:
         jdon.dump(my_obj, f)
