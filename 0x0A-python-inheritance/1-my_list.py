@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-"""Define empty class BaseGeometry."""
+"""define class that contains MyList."""
 
 
-class BaseGeometry:
-    """Represent base geometry."""
-    pass
+class MyList(list):
+    """Implement sorted printing for the built-in list class."""
+
+    def print_sorted(self):
+        """Print sorted list in ascending order."""
+        print(sorted(self))
